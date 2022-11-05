@@ -27,9 +27,19 @@ pub fn _run(s: String) -> Result<String, String> {
             .subject(" 😉 Thank you for your star!")
             .content(format!(
                 r#"
-Howdy {},<br/>
-                
-Welcome to the {} community! Thank you so much for starring our repository. We are very excited to have you here.<br/>
+Welcome to the {} community! Here are some resources to get you started. Please feel free to reach out to us on GitHub or Discord if you have questions or encounter any issues. Happy hacking!<br/>
+<br/>
+Please refer to our quick start guides to install WasmEdge and run your Wasm apps:<br/>
+https://wasmedge.org/book/en/quick_start.html
+<br/><br/>
+The repo below contains a complete demo app in WasmEdge. It is a microservice with a web frontend and a MySQL database backend.<br/>
+https://github.com/second-state/microservice-rust-mysql
+<br/><br/>
+WasmEdge has collaborated with Docker to create a seamless developer experience for building, sharing, and running applications with mixed Linux containers and Wasm sandboxes. You can read Docker's announcement below, and try the above microservice demo in Docker Desktop or Docker CLI!<br/>
+https://www.docker.com/blog/docker-wasm-technical-preview/               
+<br/><br/>
+Finally, If you are in Detorit for KubeCon this week, please come by our kiosk in the CNCF projects area and say hi!
+<br/><br/>
 
 Look forward to your contributions,<br/>
 Maintainers at repository {}"#,
