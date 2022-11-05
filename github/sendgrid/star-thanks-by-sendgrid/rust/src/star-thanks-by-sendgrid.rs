@@ -27,6 +27,7 @@ pub fn _run(s: String) -> Result<String, String> {
             .subject(" 😉 Thank you for your star!")
             .content(format!(
                 r#"
+                
 Welcome to the {} community! Here are some resources to get you started. Please feel free to reach out to us on GitHub or Discord if you have questions or encounter any issues. Happy hacking!<br/>
 <br/>
 Please refer to our quick start guides to install WasmEdge and run your Wasm apps:<br/>
