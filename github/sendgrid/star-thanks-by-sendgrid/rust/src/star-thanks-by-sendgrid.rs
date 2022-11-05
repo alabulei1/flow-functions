@@ -39,8 +39,6 @@ https://github.com/second-state/microservice-rust-mysql
 WasmEdge has collaborated with Docker to create a seamless developer experience for building, sharing, and running applications with mixed Linux containers and Wasm sandboxes. You can read Docker's announcement below, and try the above microservice demo in Docker Desktop or Docker CLI!<br/>
 https://www.docker.com/blog/docker-wasm-technical-preview/               
 <br/><br/>
-Finally, If you are in Detorit for KubeCon this week, please come by our kiosk in the CNCF projects area and say hi!
-<br/><br/>
 
 Look forward to your contributions,<br/>
 Maintainers at repository {}"#,
